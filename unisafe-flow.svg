@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#F6F4ED"/>
+<rect x="82" y="70" width="7" height="125" rx="4" fill="#315F53"/>
+<text x="115" y="103" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1.8" fill="#315F53">UNISAFE / DATA FLOW</text>
+<text x="112" y="161" font-family="Georgia,serif" font-size="46" fill="#263432">From a suspicious message to a staff review</text>
+<text x="115" y="203" font-family="Arial,sans-serif" font-size="21" fill="#66726E">The report is checked, sent to the university service and acknowledged.</text>
+<!-- numbered path -->
+<path d="M165 346H1432" fill="none" stroke="#BDC9C0" stroke-width="3"/>
+<g fill="none" stroke="#C18A3F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M383 346h31m-9-9 9 9-9 9"/><path d="M643 346h31m-9-9 9 9-9 9"/><path d="M903 346h31m-9-9 9 9-9 9"/><path d="M1163 346h31m-9-9 9 9-9 9"/><path d="M1423 346h31m-9-9 9 9-9 9"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+<circle cx="165" cy="346" r="27" fill="#315F53"/><text x="165" y="352" fill="#FFFDF8">1</text>
+<circle cx="425" cy="346" r="27" fill="#315F53"/><text x="425" y="352" fill="#FFFDF8">2</text>
+<circle cx="685" cy="346" r="27" fill="#315F53"/><text x="685" y="352" fill="#FFFDF8">3</text>
+<circle cx="945" cy="346" r="27" fill="#315F53"/><text x="945" y="352" fill="#FFFDF8">4</text>
+<circle cx="1205" cy="346" r="27" fill="#315F53"/><text x="1205" y="352" fill="#FFFDF8">5</text>
+<circle cx="1465" cy="346" r="27" fill="#D6A13D"/><text x="1465" y="352" fill="#263432">6</text>
+</g>
+<g text-anchor="middle" font-family="Arial,sans-serif" fill="#263432">
+<text x="165" y="410" font-size="21" font-weight="700">Open UniSafe</text><text x="165" y="441" font-size="17" fill="#66726E">User starts a report</text>
+<text x="425" y="410" font-size="21" font-weight="700">Choose a type</text><text x="425" y="441" font-size="17" fill="#66726E">Email, link, account, other</text>
+<text x="685" y="410" font-size="21" font-weight="700">Add details</text><text x="685" y="441" font-size="17" fill="#66726E">Describe it and add the date</text>
+<text x="945" y="410" font-size="21" font-weight="700">Attach evidence</text><text x="945" y="441" font-size="17" fill="#66726E">Screenshot or file, if useful</text>
+<text x="1205" y="410" font-size="21" font-weight="700">Review and submit</text><text x="1205" y="441" font-size="17" fill="#66726E">User checks before sending</text>
+<text x="1465" y="410" font-size="21" font-weight="700">Get a reference</text><text x="1465" y="441" font-size="17" fill="#66726E">Confirmation is returned</text>
+</g>
+<!-- after receipt -->
+
+<rect x="750" y="468" width="440" height="76" rx="4" fill="#E8EEE7"/>
+<text x="780" y="499" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#315F53">AFTER RECEIPT</text>
+<text x="780" y="527" font-family="Georgia,serif" font-size="21" fill="#263432">University staff review the report.</text>
+<!-- exception states -->
+<rect x="90" y="596" width="675" height="130" rx="4" fill="#FFFDF8" stroke="#D9D8CF" stroke-width="2"/>
+<rect x="90" y="596" width="6" height="130" fill="#C96D4F"/>
+<text x="125" y="634" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#A64F3C">MISSING DETAILS</text>
+<text x="125" y="672" font-family="Arial,sans-serif" font-size="20" fill="#263432">Show an error and return the user to the form.</text>
+<text x="125" y="704" font-family="Arial,sans-serif" font-size="16" fill="#66726E">Nothing is submitted until required fields are complete.</text>
+<rect x="795" y="596" width="715" height="130" rx="4" fill="#F2E9D5"/>
+<text x="830" y="634" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#8A682C">CONNECTION LOST</text>
+<text x="830" y="672" font-family="Arial,sans-serif" font-size="20" fill="#564A32">Say clearly that the report was not sent.</text>
+<text x="830" y="704" font-family="Arial,sans-serif" font-size="16" fill="#73561F">Offer retry and the university’s official IT contact.</text>
+<text x="115" y="823" font-family="Arial,sans-serif" font-size="16" fill="#66726E">A reference number confirms receipt; it does not mean the incident has been classified.</text>
+</svg>
